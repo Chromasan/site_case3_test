@@ -1,0 +1,248 @@
+<!参照先:https://www.webopixel.net/javascript/1289.html>
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <title></title>
+  </head>
+  <body>
+
+    <header id="global-head">
+        <h1 id="brand-logo">耳鼻科</h1>
+    </header>
+
+    <div id="nav-toggle">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <aside id="sidebar">
+        <nav id="global-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="sub-menu">
+                    <a href="#" class="sub-menu-head">About</a>
+                    <ul class="sub-menu-nav">
+                        <li><a href="#">About 1</a></li>
+                        <li><a href="#">About 2</a></li>
+                        <li><a href="#">About 3</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu">
+                    <a href="#" class="sub-menu-head">Products</a>
+                    <ul class="sub-menu-nav">
+                        <li><a href="#">Product 1</a></li>
+                        <li><a href="#">Product 2</a></li>
+                        <li><a href="#">Product 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div id="overlay"></div>
+
+    <main id="main">
+        <div id="main-in">
+            <div id="main-visual">
+                <h1></h1>
+            </div>
+
+            <div class="attention">
+              <h2><span>注意事項</span></h2>
+              <div class="title-box1">
+              <div class="title-box1-title">新型コロナウイルス感染症（COVID-19）に関する情報</div>
+                <p>一般の皆様向け（一般社団法人日本耳鼻咽喉科学会のサイトへ移動します）</p>
+              </div>
+
+              <div class="title-box1">
+              <div class="title-box1-title">発熱、せきのある方　あるいは　味覚・嗅覚に異常を感じる方　へ</div>
+                <p>昨今の新型コロナ対策の一環として、ご来院頂く前に当院に電話（☎：043-225-3387）をして頂きますようお願い申し上げます。 </p>
+                <p>※当院で対応可能かどうかを判断した上で、適切な対応をさせて頂きます。ご協力のほどよろしくお願い申し上げます。</p>
+              </div>
+
+            </div>
+
+            <div class="article1">
+              <h2><span>お知らせ</span></h2>
+              <!--https://blog.maromaro.co.jp/archives/stylerecipe_post/1641-->
+              <ul class="msr_newslist04">
+                <li>
+                  <a href="#">
+                  <div>
+                    <time datetime="2016-1-1">2016.01.01</time>
+                    <p class="cat01">cat01</p>
+                  </div>
+                  <p> テキストテキスト </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <div>
+                    <time datetime="2016-1-1">2016.01.01</time>
+                    <p class="cat02">cat02</p>
+                  </div>
+                  <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <div>
+                    <time datetime="2016-1-1">2016.01.01</time>
+                    <p class="cat01">cat01</p>
+                  </div>
+                  <p> テキストテキスト </p>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="explain">
+              <h2><span>診療案内</span></h2>
+              <h3>一般耳鼻咽喉科</h3>
+              <p>耳・鼻・喉に関して以下のような症状をお持ちの方は、当院に是非ご相談ください。</p>
+              <p>患者様の病状に応じて、各種血液検査、聴力検査、めまい検査、内視鏡検査などを行い、迅速な診断と的確な治療を行うように努めています。</p>
+              <p>耳の症状</p>
+              <p>・耳が痛い　・耳がかゆい　・聞こえが悪い　・耳鳴り　など</p>
+              <p>鼻の症状</p>
+              <p>・鼻水が出る　・くしゃみ鼻詰まり　・鼻が痛い　・においがしない　など</p>
+              <p>喉の症状</p>
+              <p>・喉が痛い　・喉の違和感　・声がかすれる　・味がしない　など</p>
+
+              <h3>アレルギー科</h3>
+              <p>できるだけ毎日を快適に過ごせるように、きちんと対策をしてアレルギー症状を軽減していきましょう。</p>
+              <p>・通年性アレルギー性鼻炎の症状</p>
+              <p>・花粉症の症状</p>
+            </div>
+
+            <div class="article2">
+              <h2><span>営業時間</span></h2>
+              <div class="time">
+                <img src="time.jpg">
+              </div>
+              <p>ヒロ耳鼻科クリニック</p>
+              <p>千葉県千葉市中央区富士見２丁目２３−８　山野井ビル３階</p>
+              <p>TEL 043-225-3387</p>
+            </div>
+            <div class="article3">
+              <h2><span>Map</span></h2>
+              <body onload="initialize();">
+              <div id="map_custmomize" style="width:100%;height:400px;"></div>
+              </body>
+            </div>
+        </div>
+    </main>
+
+
+
+
+  </body>
+</html>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+<script type="text/javascript">
+(function($) {
+    $(function () {
+        $('.sub-menu').on({
+            'mouseenter': function () {
+                $(this).addClass('is-active');
+            },
+            'mouseleave': function () {
+                $(this).removeClass('is-active');
+            }
+        });
+        $('#nav-toggle,#overlay').on('click', function() {
+            $('body').toggleClass('open');
+        });
+    });
+})(jQuery);
+
+/*https://wk-partners.co.jp/homepage/blog/hpseisaku/webdesign/googlemap-customize/*/
+function initialize() {
+  var latlng = new google.maps.LatLng(35.608257,140.118502);/*表示したい場所の経度、緯度*/
+  var myOptions = {
+    zoom: 18, /*拡大比率*/
+    center: latlng, /*表示枠内の中心点*/
+    mapTypeControlOptions: { mapTypeIds: ['noText', google.maps.MapTypeId.ROADMAP] }/*表示タイプの指定*/
+  };
+  var map = new google.maps.Map(document.getElementById('map_custmomize'), myOptions);/*マップのID取得*/
+  /*スタイルのカスタマイズ*/
+  var styleOptions =
+[
+  {
+    "featureType": "landscape.natural",
+    "stylers": [
+      { "color": "#fff2c2" }
+    ]
+  },{
+    "featureType": "road",
+    "stylers": [
+      { "gamma": 2.61 },
+      { "color": "#ffffff" }
+    ]
+  },{
+    "featureType": "transit.line",
+    "stylers": [
+      { "invert_lightness": true },
+      { "visibility": "simplified" },
+      { "color": "#ffbe00" }
+    ]
+  },{
+    "elementType": "labels.icon",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "landscape.man_made",
+    "elementType": "geometry",
+    "stylers": [
+      { "visibility": "simplified" },
+      { "color": "#ffce5f" }
+    ]
+  },{
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#ffde5b" }
+    ]
+  },{
+    "featureType": "water",
+    "stylers": [
+      { "color": "#dfe8ff" }
+    ]
+  },{
+    "featureType": "transit.station",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#fab022" }
+    ]
+  }
+];
+ var styledMapOptions = { name: 'ヒロ' }
+  var sampleType = new google.maps.StyledMapType(styleOptions, styledMapOptions);
+  map.mapTypes.set('sample', sampleType);
+  map.setMapTypeId('sample');
+/*WEB企画アイコンの取得*/
+var icon = new google.maps.MarkerImage('mapicon.png',/*アイコンの場所*/
+  new google.maps.Size(40,40),/*アイコンのサイズ*/
+  new google.maps.Point(0,0)/*アイコンの位置*/
+);
+/*マーカーの設置*/
+var markerOptions = {
+  position: latlng,/*表示場所と同じ位置に設置*/
+  map: map,
+  icon: icon,
+  title: 'ヒロ'/*マーカーのtitle*/
+};
+var marker = new google.maps.Marker(markerOptions);
+}
+</script>
